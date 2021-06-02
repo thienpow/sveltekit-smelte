@@ -7,7 +7,7 @@
       { to: '/about', text: 'About' },
     ];
 
-	$: path = $page.path ? $page.path : '/';
+	$: path = $page ? $page.path ? $page.path : '/' : '/';
 </script>
 
 <header>
