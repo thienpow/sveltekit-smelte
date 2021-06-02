@@ -32,12 +32,7 @@
 <svelte:head>
 	<title>Sample List</title>
 </svelte:head>
-
-<div class="content">
-	<h1>Sample List</h1>
-
-</div>
-
+<h1>Sample List</h1>
 <h6 class="mb-3 mt-6">One-line</h6>
 <List items={listOneLine} />
 <h6 class="mb-3 mt-6">Two-line</h6>
@@ -46,10 +41,3 @@
 <h6 class="mb-3 mt-6">Dense</h6>
 <List dense items={listTwoLines} />
 
-<style>
-	.content {
-		width: 100%;
-		max-width: var(--column-width);
-		margin: var(--column-margin-top) auto 0 auto;
-	}
-</style>
